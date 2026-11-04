@@ -30,27 +30,21 @@ Para aislar variables y garantizar la fidelidad de los datos, las pruebas de sof
 
 *Nota: En la fase previa ("A"), el sobrecalentamiento inicial del procesador provocó la activación de protecciones térmicas del sistema, interrumpiendo la salida de video HDMI y obligando a un reinicio forzado para repetir el test de estrés.* 
 
-Componente / MétricaLínea Base "A" (Sucio / Pasta Vieja)Línea Base "B" (Limpio / Pasta Nueva)Impacto Neto / Diferencia
-****CPU Temp (Reposo / Idle)****
-23 °C (24°C amb.)22 °C (25°C amb.)**-3 °C**
-****CPU Temp Máxima (Carga)****
-79 °C (25°C amb.)65 °C (25°C amb.)**-14 °C**
-****CPU Thermal Throttling****
-**SÍ** (Fallo de salida de video)**NO** (Estable)**Mejora Crítica**
-****GPU Temp (Reposo / Idle)****
-31.3 °C31.3 °C0 °C
-****GPU Temp Máxima (Carga)****
-71.4 °C (25°C amb.)76.8 °C (25°C amb.)+5.4 °C *
+ | Componente / Métrica | Línea Base "A" (Sucio / Pasta Vieja) | Línea Base "B" (Limpio / Pasta Nueva) | Impacto Neto / Diferencia |
+| :--- | :--- | :--- | :--- |
+| **CPU Temp (Reposo / Idle)** | 23 °C (24°C amb.) | 22 °C (25°C amb.) | - 3 °C |
+| **CPU Temp Máxima (Carga)** | 79 °C (25°C amb.) | 65 °C (25°C amb.) | - 14 °C |
+| **CPU Thermal Throttling** | SI - Repetida prueba | No | Mejora |
+| **GPU Temp (Reposo / Idle)** | 31,3 °C | 31,3 °C | 0 °C |
+| **GPU Temp Máxima (Carga)** | 71,4 °C (25°C amb.) | 76,8 °C (25°C amb.) | + 5,4 °C |
 
 **Nota de ingeniería:* El incremento térmico controlado en la GPU tras la limpieza se debe a la eliminación del estrangulamiento por software; al recuperar la fluidez eléctrica y del flujo de aire, el componente rinde a su máxima capacidad real, consumiendo más energía de forma segura. 
 
 #### Rendimiento Sintético (Benchmarks)
-
-Prueba RealizadaPuntuación Línea Base "A"Puntuación Línea Base "B"Incremento Neto (%)
-****Cinebench CPU (Multi-Core)****
-1238 pts1234 pts-0.32%
-****FurMark GPU (FPS Medios)****
-61 FPS64 FPS**+4.68%**
+| Prueba Realizada | Puntuación Línea Base "A" | Puntuación Línea Base "B" | Incremento de Rendimiento (%) |
+| :--- | :--- | :--- | :--- |
+| **Cinebench CPU (Multi-Core)** | 1238 pts | 1234 pts | - 0,32 % |
+| **FurMark GPU (FPS Medios)** | 61 FPS | 64 FPS | + 4,68 % |
 
 #### 💡 Conclusiones
 
