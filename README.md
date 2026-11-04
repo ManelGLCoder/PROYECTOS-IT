@@ -10,15 +10,15 @@ A continuación se detallan los proyectos y laboratorios técnicos que he desarr
 
 * **[01_Optimización Térmica y Restauración de Rendimiento en Entorno Windows 10](./proyectos/mantenimiento-pc-w10/README.md)** 
 
-  * **Descripción:** Proceso metódico de desmontaje, diagnóstico físico, limpieza profunda y montaje de un equipo de escritorio Windows 10.
-  * **Impacto:** Reducción de temperaturas críticas en un 17% y restauración de la estabilidad térmica del sistema.
-  * **Herramientas:** Instrumentación antiestática, compuestos térmicos de alta conductividad y software de diagnóstico.
+* **Descripción:** Auditoría técnica de rendimiento y mantenimiento correctivo/preventivo profundo sobre una arquitectura Intel/NVIDIA para mitigar problemas de degradación térmica (*thermal throttling*).
+  * **Impacto Clave:** Reducción neta de **14°C** en la temperatura máxima de la CPU y eliminación de fallos por sobrecalentamiento bajo pruebas de estrés sintético (Cinebench).
+  * **Core Stack:** HWiNFO64, Cinebench, FurMark, Instrumentación de precisión ESD.
 
-#### 🛠️ Tecnologías y Core Competencies
+#### 🛠️ Tecnologías y Competencias Centrales
 
-* **Sistemas y Hardware:** Diagnóstico de componentes, ensamblaje de sistemas, mantenimiento preventivo, gestión térmica.
-* **Software de Diagnóstico:** HWMonitor, Cinebench 2016, FurMark.
-* **Protocolos de Seguridad:** Normativas antiestáticas (ESD), seguridad eléctrica en laboratorios de TI.
+* **Hardware & Sistemas:** Diagnóstico avanzado de fallos de hardware, mantenimiento preventivo/correctivo, gestión térmica, ensamblaje y auditoría de componentes de servidores/PCs.
+* **Herramientas de Diagnóstico:** HWiNFO64, Cinebench, FurMark, herramientas nativas de administración Windows (msinfo32, Administrador de Tareas).
+* **Seguridad Operativa:** Protocolos de desenergización, mitigación de descargas electrostáticas (ESD) y manejo seguro de compuestos químicos (Alcohol isopropílico al 99.9%).
 
 #### 📫 Contacto
 
