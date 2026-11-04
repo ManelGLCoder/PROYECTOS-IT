@@ -1,10 +1,10 @@
-#### Caso de Estudio: Optimización Térmica y Restauración de Rendimiento en Entorno Windows 10
+# Caso de Estudio: Optimización Térmica y Restauración de Rendimiento en Entorno Windows 10
 
 Este proyecto documenta de extremo a extremo el proceso de auditoría de rendimiento, mantenimiento físico de hardware y análisis comparativo de una torre de ordenador con sistema operativo Windows 10. 
 
 📝 **Nota de Documentación:** Para examinar el informe con todo el desglose fotográfico paso a paso (imágenes de componentes iniciales, limpieza y aplicación de pasta térmica) mire el **[📖 Informe Detallado de Intervención](./INFORME_DETALLADO.md)**. 
 
-#### 🛠️ Ficha Técnica del Hardware (Inventario del Sistema)
+## 🛠️ Ficha Técnica del Hardware (Inventario del Sistema)
 
 Datos extraídos de forma nativa a través de herramientas administrativas (msinfo32) y validados mediante inspección visual: 
 
@@ -16,7 +16,7 @@ Datos extraídos de forma nativa a través de herramientas administrativas (msin
 * **Fuente de Alimentación:** Nox Urano VX 650 (V1)
 * **Chasis / Caja:** Nox Hummer MC
 
-#### 📈 Metodología de Pruebas y Herramientas
+## 📈 Metodología de Pruebas y Herramientas
 
 Para aislar variables y garantizar la fidelidad de los datos, las pruebas de software se realizaron a una temperatura ambiente controlada de ~25°C utilizando el siguiente software de diagnóstico: 
 
@@ -24,9 +24,9 @@ Para aislar variables y garantizar la fidelidad de los datos, las pruebas de sof
 2. **Cinebench:** Prueba sintética de renderizado para estresar la CPU al 100% durante ciclos continuos de 10 minutos.
 3. **FurMark:** Test de estrés continuo de 10 minutos para evaluar la estabilidad de fotogramas y la disipación del silicio gráfico.
 
-#### 📊 Resultados Comparativos (Métricas A/B)
+## 📊 Resultados Comparativos (Métricas A/B)
 
-#### Rendimiento Térmico y Físico
+### Rendimiento Térmico y Físico
 
 *Nota: En la fase previa ("A"), el sobrecalentamiento inicial del procesador provocó la activación de protecciones térmicas del sistema, interrumpiendo la salida de video HDMI y obligando a un reinicio forzado para repetir el test de estrés.* 
 
@@ -40,13 +40,13 @@ Para aislar variables y garantizar la fidelidad de los datos, las pruebas de sof
 
 **Nota de ingeniería:* El incremento térmico controlado en la GPU tras la limpieza se debe a la eliminación del estrangulamiento por software; al recuperar la fluidez eléctrica y del flujo de aire, el componente rinde a su máxima capacidad real, consumiendo más energía de forma segura. 
 
-#### Rendimiento Sintético (Benchmarks)
+### Rendimiento Sintético (Benchmarks)
 | Prueba Realizada | Puntuación Línea Base "A" | Puntuación Línea Base "B" | Incremento de Rendimiento (%) |
 | :--- | :--- | :--- | :--- |
 | **Cinebench CPU (Multi-Core)** | 1238 pts | 1234 pts | - 0,32 % |
 | **FurMark GPU (FPS Medios)** | 61 FPS | 64 FPS | + 4,68 % |
 
-#### 💡 Conclusiones
+## 💡 Conclusiones
 
 El proyecto valida experimentalmente la correlación directa entre el mantenimiento físico preventivo y la eficiencia del software: 
 
