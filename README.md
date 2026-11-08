@@ -10,16 +10,16 @@ A continuación se detallan los proyectos y laboratorios técnicos que he desarr
 
 * **[01_Optimización Térmica y Restauración de Rendimiento en Entorno Windows 10](./proyectos/mantenimiento-pc-w10/README.md)** 
 
-* **Descripción:** Auditoría técnica de rendimiento y mantenimiento correctivo/preventivo profundo sobre una arquitectura Intel/NVIDIA para mitigar problemas de degradación térmica (*thermal throttling*).
+  * **Descripción:** Auditoría técnica de rendimiento y mantenimiento correctivo/preventivo profundo sobre una arquitectura Intel/NVIDIA para mitigar problemas de degradación térmica (*thermal throttling*).
   * **Impacto Clave:** Reducción neta de **14°C** en la temperatura máxima de la CPU y eliminación de fallos por sobrecalentamiento bajo pruebas de estrés sintético (Cinebench).
   * **Core Stack:** HWiNFO64, Cinebench, FurMark, Instrumentación de precisión ESD.
 
   
 * **[02_Reingeniería de Red Local, Fortificación de Perímetro y Despliegue de Arquitectura Zero Trust](./proyectos/reingeneria-red-local/README.md)**
 
-* **Descripción:** Reestructuración de topología de red doméstica mediante segmentación física en puente de Capa 2 y endurecimiento estricto basado en host (*host-based hardening*) en Capa 4 sobre un activo crítico (**Steam Machine bajo SteamOS / Arch Linux**).
-    * **Impacto Clave:** Aislamiento local del 100% de dispositivos IoT/visitas, invisibilidad total (Stealth Mode) de sockets internos frente a escaneos y eliminación del Doble NAT mediante infraestructura Mesh en Modo AP.
-    * **Core Stack:** `iptables` (Netfilter Kernel), `curl` síncrono, Sagemcom F@st 5657, TP-Link Deco M4R, tablas ARP (`ip neighbor`).
+  * **Descripción:** Reestructuración de topología de red doméstica mediante segmentación física en puente de Capa 2 y endurecimiento estricto basado en host (*host-based hardening*) en Capa 4 sobre un activo crítico (**Steam Machine bajo SteamOS / Arch Linux**).
+  * **Impacto Clave:** Aislamiento local del 100% de dispositivos IoT/visitas, invisibilidad total (Stealth Mode) de sockets internos frente a escaneos y eliminación del Doble NAT mediante infraestructura Mesh en Modo AP.
+  * **Core Stack:** `iptables` (Netfilter Kernel), `curl` síncrono, Sagemcom F@st 5657, TP-Link Deco M4R, tablas ARP (`ip neighbor`).
 
 #### 🛠️ Tecnologías y Competencias Centrales
 
