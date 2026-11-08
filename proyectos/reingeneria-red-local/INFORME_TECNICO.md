@@ -45,13 +45,17 @@ Sometido a una auditoría de caja negra desde un equipo en la subred de invitado
 
 ### 5.1. Evidencias Fotográficas de la Auditoría
 * **Test 1:**
-  ![TEST1.png](./recursos/TEST1.png)
+
+  <img src="./recursos/TEST1.png" width="480" alt="TEST1">
 * **Test 2:**
-  ![TEST2.png](./recursos/TEST2.png)
-* **Test 3:** 
-  ![TEST3.png](./recursos/TEST3.png)
+
+  <img src="./recursos/TEST2.png" width="480" alt="TEST2">
+* **Test 3:**
+ 
+  <img src="./recursos/TEST3.png" width="480" alt="TEST3">
 * **Test 4:**
-  ![TEST4.png](./recursos/TEST4.png)
+
+  <img src="./recursos/TEST4.png" width="480" alt="TEST4">
 
 ## 💡 6. Conclusiones del Proyecto
 
