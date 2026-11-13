@@ -57,7 +57,7 @@ Para el despliegue se utilizó la estrategia de almacenamiento extraíble config
 
 ## 💻 6. Configuración Post-Instalación y Repositorios Comunitarios
 
-Por defecto, Proxmox VE viene configurado para apuntar a los repositorios empresariales de pago (`://proxmox.com`), lo que devuelve un error `401 Unauthorized` al intentar actualizar en un entorno de laboratorio.
+Por defecto, Proxmox VE viene configurado para apuntar a los repositorios empresariales de pago (`enterprise.proxmox.com`), lo que devuelve un error `401 Unauthorized` al intentar actualizar en un entorno de laboratorio.
 
 Al estar **Proxmox VE 9** basado en **Debian 13 (*Trixie*)**, la gestión de paquetes utiliza el nuevo formato estructurado **DEB822 (`.sources`)** en lugar del antiguo `.list`. Para migrar al canal gratuito oficial (`pve-no-subscription`):
 
@@ -65,7 +65,7 @@ Al estar **Proxmox VE 9** basado en **Debian 13 (*Trixie*)**, la gestión de paq
 2. **Alta del repositorio comunitario (`pve-no-subscription`):** Se creó el archivo `/etc/apt/sources.list.d/proxmox.sources` para indicar al gestor `apt` que descargue las actualizaciones gratuitas desde el servidor oficial de Debian *Trixie*:
    ```text
    Types: deb
-   URIs: http://proxmox.com
+   URIs: http://download.proxmox.com/debian/pve
    Suites: trixie
    Components: pve-no-subscription
    Signed-By: /usr/share/keyrings/proxmox-archive-keyring.gpg
