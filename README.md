@@ -20,6 +20,14 @@ A continuación se detallan los proyectos y laboratorios técnicos que he desarr
   * **Descripción:** Reestructuración de topología de red doméstica mediante segmentación física en puente de Capa 2 y endurecimiento estricto basado en host (*host-based hardening*) en Capa 4 sobre un activo crítico (**Steam Machine bajo SteamOS / Arch Linux**).
   * **Impacto Clave:** Aislamiento local del 100% de dispositivos IoT/visitas, invisibilidad total (Stealth Mode) de sockets internos frente a escaneos y eliminación del Doble NAT mediante infraestructura Mesh en Modo AP.
   * **Core Stack:** `iptables` (Netfilter Kernel), `curl` síncrono, Sagemcom F@st 5657, TP-Link Deco M4R, tablas ARP (`ip neighbor`).
+  
+#### 🖥 Virtualización e Infraestructura de Servidores
+
+* **[03_Despliegue de Servidor de Virtualización Bare-Metal con Proxmox VE e Integración en Red Segura](./proyectos/despliegue-servidor-virtual/README.md)**
+    * **Descripción:** Reconversión de una torre de hardware dedicado en un hipervisor Tipo 1 (**Proxmox VE 9** sobre Debian 13 *Trixie*) integrado en el segmento cableado seguro (`192.168.45.0/24`), con separación física de almacenamiento híbrido (SSD + HDD por UUID), cortafuegos perimetral (`pve-firewall`) y protocolo de reversión (*rollback*) documentado.
+    * **Impacto Clave:** Infraestructura base operativa para alojar máquinas virtuales y contenedores de laboratorio con aislamiento de red, canal comunitario actualizado y ~932 GiB de almacenamiento masivo persistente para backups e ISOs.
+    * **Core Stack:** Proxmox VE 9 (KVM/LXC), Debian 13 (Trixie), Linux Bridge (`vmbr0` / `nic0`), `pve-firewall`, Ventoy Dual Multiboot, `parted` / `fstab` (UUID).
+
 
 #### 🛠️ Tecnologías y Competencias Centrales
 
